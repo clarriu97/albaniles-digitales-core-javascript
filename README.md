@@ -32,6 +32,21 @@ The best teachers are:
 - Make mistakes and solve them
 - Being stubborn and insistent
 
+### Syllabus covered by the course
+
+1. Types and variables
+2. Expressions and statements
+3. Conditionals
+4. Loops
+5. Functions
+6. Jest
+7. Arrays
+8. Objects, classes and inheritance
+9. Iterators, generators and others
+10. Asynchronous Javascript
+11. Networking with Javascript
+12. Sets, maps, modules.
+
 ### References of the course
 
 - [Veridas web](https://veridas.com/albaniles-digitales/)
