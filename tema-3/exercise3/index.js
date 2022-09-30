@@ -5,6 +5,8 @@ let response = prompt(question);
 response = response.toLowerCase()
 console.log(response);
 
+let text = "";
+
 switch (response){
     case "zapatillas":
         text = 45;
