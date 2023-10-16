@@ -1,4 +1,4 @@
-import getCommonValues from './exercise1.js';
+import { getCommonValues } from './index.js';
 
 test('getCommonValues returns the common values between two sets', () => {
     const set1 = new Set([1, 2, 3]);
