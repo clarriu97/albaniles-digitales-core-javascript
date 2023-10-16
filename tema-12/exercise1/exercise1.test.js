@@ -1,4 +1,4 @@
-import { getCommonValues } from './index.js';
+const { getCommonValues } = require('./exercise1');
 
 test('getCommonValues returns the common values between two sets', () => {
     const set1 = new Set([1, 2, 3]);

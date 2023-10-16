@@ -13,4 +13,4 @@ console.log(getCommonValues(new Set([1, 2, 3]), new Set([2, 3, 4]))); // Set { 2
 console.log(getCommonValues(new Set([1, 2, 3]), new Set([4, 5, 6]))); // Set {}
 console.log(getCommonValues(new Set([1, 2, 3]), new Set([3, 4, 5]))); // Set { 3 }
 
-export { getCommonValues }
+module.exports = { getCommonValues };
