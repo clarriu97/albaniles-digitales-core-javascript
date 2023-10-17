@@ -20,4 +20,4 @@ function fetchPosts() {
       .catch(error => console.error(error));
 }
 
-module.exports = { fetchPosts };
+fetchPosts();
