@@ -1,4 +1,4 @@
-const { fetchGoogle } = require('./main.js');
+const { fetchGoogle } = require('./index.js');
 
 describe('fetchGoogle', () => {
     afterEach(() => {

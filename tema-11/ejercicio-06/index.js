@@ -1,10 +1,19 @@
 
-let url = "https://jsonplaceholder.typicode.com/posts/1"
 
-fetch(url)
-    .then(response => {
-        console.log(response.status);
-        return response.json();
-    })
-    .then(data => console.log(`Title: ${data.title}\n\nBody: ${data.body}`))
-    .catch(error => console.error(error));
+function fetchPost() {
+    let url = "https://jsonplaceholder.typicode.com/posts/1";
+
+    return fetch(url)
+        .then(response => {
+            return response.json()
+                .then(data => {
+                    return { status: response.status, body: data.body };
+                });
+        })
+}
+
+// fetchPost().then(response => console.log(response));
+
+module.exports = {
+    fetchPost
+};
