@@ -16,7 +16,9 @@
     "url": "https://github.com/clarriu97/albaniles-digitales-core-javascript/issues"
   },
   "homepage": "https://github.com/clarriu97/albaniles-digitales-core-javascript#readme",
-  "dependencies": {
-    "jest": ">26.0.0"
+  "dependencies": {},
+  "devDependencies": {
+    "jest": ">26.0.0",
+    "jest-fetch-mock": ">3.0.0"
   }
 }
