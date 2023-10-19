@@ -1,0 +1,19 @@
+{
+  "name": "albaniles-digitales-core-javascript",
+  "version": "1.0.0",
+  "description": "Repository to follow up on the Core Javascript course of the program Albañiles Digitales",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clarriu97/albaniles-digitales-core-javascript.git"
+  },
+  "author": "clarriu97",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clarriu97/albaniles-digitales-core-javascript/issues"
+  },
+  "homepage": "https://github.com/clarriu97/albaniles-digitales-core-javascript#readme"
+}
