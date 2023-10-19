@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/clarriu97/albaniles-digitales-core-javascript/issues"
   },
-  "homepage": "https://github.com/clarriu97/albaniles-digitales-core-javascript#readme"
+  "homepage": "https://github.com/clarriu97/albaniles-digitales-core-javascript#readme",
+  "dependencies": {}
 }
