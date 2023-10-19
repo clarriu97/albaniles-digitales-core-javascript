@@ -6,7 +6,7 @@ beforeAll(() => {
 });
 
 afterEach(() => {
-    fetchMock.resetMocks(); // Reset fetch mocks after each test
+    fetchMock.resetMocks();  // Reset fetch mocks after each test
 });
 
 test('fetchPost returns the expected response', () => {

@@ -1,7 +1,7 @@
 
-let a = "hello ";
-let b = "world";
+var a = "hello ";
+var b = "world";
 
-let c = a + b;
+var c = a + b;
 
 console.log(c);

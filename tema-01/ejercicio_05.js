@@ -9,10 +9,10 @@ class Car {
     }
 
     print() {
-        let response = `The car is a ${this.brand} ${this.model}, is from ${this.year} and has ${this.km}Km`
+        var response = `The car is a ${this.brand} ${this.model}, is from ${this.year} and has ${this.km}Km`
         console.log(response)
     }
 }
 
-let my_car = new Car("Fiat", "Panda", 2004, 150000)
+var my_car = new Car("Fiat", "Panda", 2004, 150000)
 my_car.print()

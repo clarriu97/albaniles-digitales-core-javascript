@@ -1,5 +1,4 @@
 
-
 function fetchPost() {
     let url = "https://jsonplaceholder.typicode.com/posts/1";
 

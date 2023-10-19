@@ -1,7 +1,7 @@
 
-let a = 1;
-let b = 2;
+var a = 1;
+var b = 2;
 
-let c = a + b;
+var c = a + b;
 
-console.log(c)
+console.log(c);
