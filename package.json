@@ -4,7 +4,7 @@
   "description": "Repository to follow up on the Core Javascript course of the program Albañiles Digitales",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose --coverage"
   },
   "repository": {
     "type": "git",
