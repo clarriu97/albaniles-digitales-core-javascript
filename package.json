@@ -16,5 +16,7 @@
     "url": "https://github.com/clarriu97/albaniles-digitales-core-javascript/issues"
   },
   "homepage": "https://github.com/clarriu97/albaniles-digitales-core-javascript#readme",
-  "dependencies": {}
+  "dependencies": {
+    "jest": ">26.0.0"
+  }
 }
