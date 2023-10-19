@@ -4,7 +4,8 @@
   "description": "Repository to follow up on the Core Javascript course of the program Albañiles Digitales",
   "main": "index.js",
   "scripts": {
-    "test": "jest --verbose --coverage"
+    "test": "jest --verbose --coverage",
+    "lint": "jslint tema*/*.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   "dependencies": {},
   "devDependencies": {
     "jest": ">26.0.0",
-    "jest-fetch-mock": ">3.0.0"
+    "jest-fetch-mock": ">3.0.0",
+    "jslint": ">0.12.0"
   }
 }
