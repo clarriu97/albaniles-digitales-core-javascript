@@ -1,23 +1,49 @@
 
-function fetchPosts() {
+function getNumberOfPosts() {
   let url = `https://jsonplaceholder.typicode.com/posts/`;
 
-  let table = document.getElementById("table");
-
-  fetch(url)
+  return fetch(url)
       .then(response => response.json())
       .then(data => {
-          console.log(`Number of posts received: ${data.length}`);
-          data.forEach(post => {
-              console.log(post.title)
-              let row = table.insertRow();
-              let titleCell = row.insertCell();
-              let bodyCell = row.insertCell();
-              titleCell.innerHTML = post.title;
-              bodyCell.innerHTML = post.body;
-          });
-      })
-      .catch(error => console.error(error));
+          return data.length;
+      });
 }
 
-fetchPosts();
+function getPostTittles() {
+  let url = `https://jsonplaceholder.typicode.com/posts/`;
+
+  return fetch(url)
+      .then(response => response.json())
+      .then(data => {
+          return data.map(post => post.title);
+      });
+}
+
+function insertContentIntoTable() {
+  let table = document.getElementById("table");
+
+  let url = `https://jsonplaceholder.typicode.com/posts/`;
+
+  return fetch(url)
+      .then(response => response.json())
+      .then(data => {
+          data.forEach(post => {
+              let row = table.insertRow();
+              let tittleCell = row.insertCell();
+              let bodyCell = row.insertCell();
+
+              tittleCell.innerHTML = post.title;
+              bodyCell.innerHTML = post.body;
+          });
+      });
+}
+
+// getNumberOfPosts().then(number => console.log(`Number of posts received: ${number}`));
+// getPostTittles().then(titles => console.log(titles));
+// insertContentIntoTable();
+
+module.exports = {
+    getNumberOfPosts,
+    getPostTittles,
+    insertContentIntoTable
+};

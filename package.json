@@ -4,7 +4,7 @@
   "description": "Repository to follow up on the Core Javascript course of the program Albañiles Digitales",
   "main": "index.js",
   "scripts": {
-    "test": "jest --verbose --coverage",
+    "test": "jest --coverage",
     "lint": "jslint tema*/*.js"
   },
   "repository": {
@@ -17,9 +17,12 @@
     "url": "https://github.com/clarriu97/albaniles-digitales-core-javascript/issues"
   },
   "homepage": "https://github.com/clarriu97/albaniles-digitales-core-javascript#readme",
-  "dependencies": {},
+  "jest": {
+    "verbose": true
+  },
   "devDependencies": {
     "jest": ">26.0.0",
+    "jest-environment-jsdom": "^29.7.0",
     "jest-fetch-mock": ">3.0.0",
     "jslint": ">0.12.0"
   }
