@@ -9,6 +9,8 @@ function filterSetByRange(set, min, max) {
     return filteredSet;
 }
 
-console.log(filterSetByRange(new Set([1, 2, 3]), 1, 2)); // Set { 1, 2 }
-console.log(filterSetByRange(new Set([1, 2, 3]), 1, 3)); // Set { 1, 2, 3 }
-console.log(filterSetByRange(new Set([1, 2, 3]), 2, 3)); // Set { 2, 3 }
+// console.log(filterSetByRange(new Set([1, 2, 3]), 1, 2)); // Set { 1, 2 }
+// console.log(filterSetByRange(new Set([1, 2, 3]), 1, 3)); // Set { 1, 2, 3 }
+// console.log(filterSetByRange(new Set([1, 2, 3]), 2, 3)); // Set { 2, 3 }
+
+module.exports = { filterSetByRange };

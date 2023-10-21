@@ -11,6 +11,8 @@ function getDifferentValues(set1, set2) {
     return difference;
 }
 
-console.log(getDifferentValues(new Set([1, 2, 3]), new Set([2, 3, 4]))); // Set { 1, 4 }
-console.log(getDifferentValues(new Set([1, 2, 3]), new Set([4, 5, 6]))); // Set { 1, 2, 3, 4, 5, 6 }
-console.log(getDifferentValues(new Set([1, 2, 3]), new Set([3, 4, 5]))); // Set { 1, 2, 4, 5 }
+// console.log(getDifferentValues(new Set([1, 2, 3]), new Set([2, 3, 4]))); // Set { 1, 4 }
+// console.log(getDifferentValues(new Set([1, 2, 3]), new Set([4, 5, 6]))); // Set { 1, 2, 3, 4, 5, 6 }
+// console.log(getDifferentValues(new Set([1, 2, 3]), new Set([3, 4, 5]))); // Set { 1, 2, 4, 5 }
+
+module.exports = { getDifferentValues };

@@ -5,5 +5,7 @@ function printMap(map) {
     }
 }
 
-printMap(new Map([['a', 1], ['b', 2], ['c', 3]])); // a => 1, b => 2, c => 3
+// printMap(new Map([['a', 1], ['b', 2], ['c', 3]])); // a => 1, b => 2, c => 3
+
+module.exports = { printMap };
 
